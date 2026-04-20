@@ -5,7 +5,14 @@
     <link rel="icon" type="image/svg+xml" href="/images/t2Logo.jpeg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <title>T2-Class Project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Practice Portfolio Project</title>
   </head>
   <body class="bg-[#121212] text-[#fdfdfd]">
     <div class="main">
@@ -15,10 +22,10 @@
             ><img
               src="images/logo-black-bg.jpeg"
               alt="logo"
-              class="mix-blend-lighten w-50 h-15"
+              class="mix-blend-lighten w-50 h-15 max-sm:w-40 max-sm:h-12"
           /></a>
         </div>
-        <div class="nav-links">
+        <div class="nav-links max-sm:hidden">
           <ul class="flex items-center justify-center gap-5">
             <li class="link text-[20px] font-bold">
               <a
@@ -48,24 +55,31 @@
             </li>
           </ul>
         </div>
+        <button class="sm:hidden text-3xl m-2">
+          <i class="fa-solid fa-bars"></i>
+        </button>
       </nav>
       <main>
         <div class="content">
           <div
-            class="hero bg-[url('/images/bg-design.avif')] w-full bg-no-repeat bg-cover bg-blend-multiply bg-teal-950 h-217"
+            class="hero bg-[url('/images/bg-design.avif')] w-full bg-no-repeat bg-cover bg-blend-multiply bg-teal-950 h-217 max-sm:h-250"
           >
             <div
-              class="hero-child flex items-center justify-between container mx-auto mb-10 -mt-25 gap-10 h-full"
+              class="hero-child flex items-center justify-between container mx-auto mb-10 -mt-25 gap-10 h-full sm:flex-row flex-col max-sm:justify-end max-sm:h-[90%]"
               id="hero"
             >
-              <div class="hero-content w-[55%]">
+              <div
+                class="hero-content w-[55%] max-sm:mb-10 max-sm:justify-items-start max-sm:w-[80%]"
+              >
                 <div class="name">
-                  <h1 class="text-7xl font-bold mb-5 font-[tahoma]">
+                  <h1
+                    class="text-7xl font-bold mb-5 font-[tahoma] max-sm:text-4xl"
+                  >
                     Akhtar Katbrahman
                   </h1>
                 </div>
-                <div class="desc w-[95%] mb-5">
-                  <p class="text-2xl text-gray-300">
+                <div class="desc w-[95%] mb-5 max-sm:w-full">
+                  <p class="text-2xl text-gray-300 max-sm:text-xl">
                     Hey eveyone, I am Frontend Developer with skills like HTML,
                     CSS and JavaScript. I am Passionate about my work.
                   </p>
@@ -74,14 +88,14 @@
                   <a
                     href="https://linkedin.com/in/akhtar-katbrahman"
                     target="_blank"
-                    class="text-black font-bold rounded-lg cursor-pointer text-3xl px-7 text-center py-2 bg-cyan-500 shadow-lg shadow-cyan-500/50 w-50 hover:bg-cyan-700 hover:shadow-cyan-700"
+                    class="text-black font-bold rounded-lg cursor-pointer text-3xl max-sm:text-2xl px-7 max-sm:px-5 text-center py-2 bg-cyan-500 shadow-lg shadow-cyan-500/50 w-50 max-sm:w-30 hover:bg-cyan-700 hover:shadow-cyan-700"
                   >
                     Linkedin
                   </a>
                   <a
                     href="https://github.com/akhtarkatbrahman"
                     target="_blank"
-                    class="text-black font-bold rounded-lg cursor-pointer text-3xl px-7 text-center py-2 bg-cyan-500 shadow-lg shadow-cyan-500/50 w-50 hover:bg-cyan-700 hover:shadow-cyan-700 ml-6"
+                    class="text-black font-bold rounded-lg cursor-pointer text-3xl max-sm:text-2xl px-7 max-sm:px-5 text-center py-2 bg-cyan-500 shadow-lg shadow-cyan-500/50 w-50 max-sm:w-30 hover:bg-cyan-700 hover:shadow-cyan-700 ml-6"
                   >
                     Github
                   </a>
