@@ -19,3 +19,14 @@
     0 0 50px teal,
     0 0 50px blue;
 }
+.about {
+  background: linear-gradient(
+    135deg,
+    rgb(214, 255, 254) 0%,
+    rgb(255, 184, 204) 100%
+  );
+}
+
+.footer {
+  background: linear-gradient(90deg, rgb(0, 92, 90) 0%, rgb(0, 71, 38) 100%);
+}
